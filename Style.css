@@ -1,0 +1,169 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.8rem;
+   font-weight: 400;
+   line-height: 1.4;
+   color: var(--main-white);
+   background-color: black;
+   color: white;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+#title {
+   font-size: 54px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: black;
+   color: white;
+   margin-left: 40%;
+}
+
+
+nav ul li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8%;
+   padding-right: 8%;
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+}
+
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav ul li:hover {
+   color: red;
+   box-shadow: 2px 2px 4px 1px green;
+   transform: translateY(-0.1em);
+   cursor: pointer;
+}
+
+#home-section {
+   padding: auto;
+   margin-left: 40%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 50px;
+
+}
+
+#name-home{
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+#home-section {
+   border: solid 10px white;
+   margin-right: 20%;
+   padding: 10px;
+}
+
+#home-section:hover {
+   border-color: blueviolet;
+   border-style: groove;
+   transition: 0.5s;
+}
+
+#home-title {
+   font-family: 'Montserrat';
+   font-size: 20px;
+   text-align: center;
+   margin-right: 20%;
+   margin-left: 30%;
+}
+
+#projects-grid {
+   padding-right: 50px;
+   padding-left: 50px;
+   margin-right: 50%;
+   margin-left: 50%;
+}
+
+li {
+   background: none;
+   color: white;
+   padding: 1em 2em;
+   font-size: 1em;
+   transition: all 0.21s;
+   font-size: 18px;
+}
+
+#made-text {
+   text-align: center;
+   margin-right: 30%;
+   margin-left: 30%;
+   margin-bottom: 20px;
+   font-size: 50px;
+}
+
+.project {
+   margin: 10px 50px 50px 10px;
+   max-width: 10px;
+   max-height: 10px;
+}
+
+.project-image {
+   margin: 10px 50px 50px 10px;
+   max-width: 300px;
+   max-height: 300px;
+   display: inline-block;
+   background-color: blueviolet;
+   width: 90%;
+   height: 300px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-left: 10%;
+}
+
+.project-title {
+   width: 90%;
+   flex-direction: row;
+   justify-content: end;
+   align-items: center;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.code {
+   color: black;
+   transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+   color: #ff7f50;
+}
+img {
+   display: block;
+   width: 100%;
+}
+
+.contact-links{
+   color: white;
+   font-size: 50px;
+   margin: 10px 10px 10px 10px;
+}
+.show-all{
+   color: white;
+   text-decoration: white;
+   background-color: black;
+   margin-left: 40%;
+}
+
+#social-links{
+   padding: 20px;
+   margin-left: 40%;
+
+}
